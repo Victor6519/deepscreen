@@ -1,0 +1,28 @@
+# DeepScreen 示例配体库
+# 包含已知的 HIV-1 蛋白酶抑制剂及其类似物
+# 格式: SMILES NAME
+CC(C)C[C@@H]([C@@H](CC1=CC=CC=C1)C(=O)NC2=CC=CC=C2)NC(=O)[C@@H]3CCCN3 BZU_ref
+CC(C)C[C@H](C(=O)NC1=CC=CC=C1)NC(=O)C2CCCN2 Amprenavir_frag
+CC(C)(C)C(=O)N[C@H](C[C@@H]1CCNC1=O)C(=O)NC2=CC=CC=C2 Darunavir_core
+Cc1ccc(S(=O)(=O)N[C@H](C[C@@H]2CCNC2=O)C(=O)NC3CC3)cc1 Tipranavir_analog
+O=C(N[C@@H]1[C@H](O)[C@@H](O)[C@H](O)[C@H](O)C1)C2=CC=CC=C2 Glycoside_inhibitor
+CC(C)CN(C[C@@H](O)[C@H](Cc1ccccc1)NC(=O)[C@H](C)NC(=O)C(C)C)C(=O)N2CCCC2 Ritonavir_simplified
+CC1=NC(=CS1)C(=O)N[C@H](C[C@@H]2CCNC2=O)C(=O)NC3=CC=C(C=C3)C#N Atazanavir_core
+Cc1ccc(cc1)C(=O)N[C@H](C[C@@H]2CCNC2=O)C(=O)N[C@@H](C)C(=O)NC3CC3 Lopinavir_analog
+O=C(Nc1ccccc1)N2CCCC[C@@H]2C(=O)N[C@H](C(=O)NC3CC3)C(C)C Urea_inhibitor_1
+Cc1cccc(c1C)C(=O)N[C@H](C[C@@H]2CCNC2=O)C(=O)N[C@H](C)C(=O)N Indinavir_simplified
+CC(C)[C@H](NC(=O)OCc1cccnc1)C(=O)N[C@H](C[C@@H]2CCNC2=O)C(=O)NC3CC3 Nelfinavir_core
+O=C(N[C@@H](Cc1ccccc1)C(=O)N2CCCC2)NC3=CC=CC=C3 Phenyl_urea_1
+Cc1cccc(c1)C(=O)N[C@H](C[C@@H]2CCNC2=O)C(=O)NCc3ccccc3 Saquinavir_analog
+O=S(=O)(c1ccccc1)N2CC[C@@H](C2)C(=O)N[C@H](C(=O)NC3CC3)C(C)C Sulfonamide_inhibitor
+Cc1onc(c1C(=O)N[C@H](C[C@@H]2CCNC2=O)C(=O)NC3CC3)C Isoxazole_inhibitor
+CN1CCN(C(=O)[C@@H](NC(=O)C(C)(C)C)C[C@@H]2CCNC2=O)CC1 Piperazine_inhibitor
+O=C(NC1CCCCC1)N2CC[C@H]2C(=O)N[C@H](C(=O)NC3CCCC3)C(C)C Cyclohexyl_urea
+COc1cc(ccc1OC)C(=O)N[C@H](C[C@@H]2CCNC2=O)C(=O)NC3CC3 Dimethoxy_analog
+N#Cc1ccc(cc1)C(=O)N[C@H](C[C@@H]2CCNC2=O)C(=O)N[C@H](C)C(=O)N Cyanophenyl_inhibitor
+CC1=CC=C(C=C1)C(=O)NC2=CC=CC=C2 Phenylbenzamide
+O=C(Nc1ccccc1)c2ccccc2 Benzamide_phenyl
+Cc1ccccc1NC(=O)CN2CCCC2 Acetamide_piperidine
+O=C1NCC2=CC=CC=C12 Oxindole
+CC(=O)NC1=CC=C(C=C1)O Paracetamol
+COc1ccc2c(c1)cc(C)n2 Melatonin_analog
